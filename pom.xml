@@ -5,6 +5,19 @@
 	<groupId>Apartment_Search_App</groupId>
 	<artifactId>Assignment1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+		<properties>
+  <maven.compiler.source>1.6</maven.compiler.source>
+  <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
+	<build>
+    <plugins>
+        <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.0</version>
+</plugin>
+    </plugins>
+</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.mockito</groupId>
