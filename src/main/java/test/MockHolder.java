@@ -14,5 +14,8 @@ public class MockHolder {
 	public EmailService getEmailService() {
 		return emailservice;
 	}
+	public void setEmailService(EmailService emailservice) {
+		this.emailservice=emailservice;
+	}
 
 }
